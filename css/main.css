@@ -583,7 +583,6 @@ header.showBg .nav .active {
   margin-top: -30px;
   margin-left: -150px;
   background-repeat: no-repeat;
-  /* background-color: #1ed549; */
   background-image: url("../img/logo-anugrah-tani.png");
   background-size: contain;
   background-position: center;
@@ -591,6 +590,53 @@ header.showBg .nav .active {
   height: 100px;
   cursor: pointer;
 }
+
+/* Ensure logo scales properly */
+@media (max-width: 1200px) { /* Large tablets */
+  .logo {
+      width: 300px;
+      height: 80px;
+      margin-left: -100px;
+  }
+}
+
+@media (max-width: 992px) { /* Small tablets */
+  .logo {
+      width: 250px;
+      height: 70px;
+      margin-left: -50px;
+  }
+}
+
+@media (max-width: 768px) { /* Mobile */
+  .logo {
+      width: 200px;
+      height: 60px;
+      margin-left: 0;
+      margin-top: 0;
+  }
+}
+
+@media (max-width: 480px) { /* Small mobile screens */
+  .logo {
+      width: 150px;
+      height: 50px;
+      margin-left: 0;
+      margin-top: 0;
+  }
+}
+
+/* Ensure text links are readable */
+.logo a {
+  font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+  .logo a {
+      font-size: 1rem;
+  }
+}
+
 .logo a {
   color: #fff;
   font-family: "Poppins", sans-serif;
