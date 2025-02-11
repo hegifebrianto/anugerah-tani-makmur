@@ -160,7 +160,7 @@
   width: 100%;
   background-color: greenyellow !important;
   transition: background-color 0.3s ease-in-out;
-  z-index: -1;
+  z-index: 9999;
 }
 .section-d .promo h3 {
   font-size: 1.7rem;
