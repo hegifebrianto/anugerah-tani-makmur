@@ -142,7 +142,7 @@
 .section-d {
   padding: 2rem 0;
   color: #fff;
-  background: #000 url("../../img/slider-3.jpg");
+  background: #000 url("../../img/galery-anugrah-6.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -158,9 +158,9 @@
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: greenyellow !important;
+  background-color: black !important;
   transition: background-color 0.3s ease-in-out;
-  z-index: 9999;
+  z-index: -1;
 }
 .section-d .promo h3 {
   font-size: 1.7rem;
